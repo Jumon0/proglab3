@@ -10,9 +10,10 @@ public class Dunno extends Shorties implements Recognizable, Teasable, Scareable
         super("Незнайка", 18, Places.ZOO);
     }
 
+
     @Override
-    public void tease() {
-        System.out.println(getName() + " дразнит обезьяну!");
+    public void tease(Creature creature) {
+        System.out.println(getName() + " дразнит " + creature.getName() + ", тыкая в морду волшебной палочкой");
     }
 
     @Override

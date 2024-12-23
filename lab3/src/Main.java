@@ -21,7 +21,7 @@ public class Main {
         }
         shorties.walk();
         shorties.stop(Places.CAGE, monkey);
-        dunno.tease();
+        dunno.tease(monkey);
         monkey.getsAngryAt(dunno);
         dunno.scared();
 
