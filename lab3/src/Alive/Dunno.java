@@ -17,7 +17,7 @@ public class Dunno extends Shorties implements Recognizable, Teasable, Scareable
 
     @Override
     public void recognize(Creature creature) {
-        System.out.println(getName() + " сразу узнает " + creature.getName());
+        System.out.println(getName() + " сразу узнает " + creature.getName() + ", как только встретит");
     }
 
     @Override
