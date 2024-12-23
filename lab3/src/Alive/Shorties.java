@@ -1,11 +1,12 @@
 package Alive;
 
 import Enums.Places;
-import Interfaces.Moveable;
+import Interfaces.Movable;
 import Interfaces.Searchable;
+import Interfaces.Stoppable;
 
 
-public class Shorties extends Creature implements Searchable, Moveable {
+public class Shorties extends Creature implements Searchable, Movable, Stoppable {
     public Shorties() {
         super("Коротышки",18, Places.ZOO);
     }
@@ -21,6 +22,7 @@ public class Shorties extends Creature implements Searchable, Moveable {
     public void walk() {
         System.out.println(getName() + " направились к выходу ");
     }
+    @Override
     public void stop(Places place, Creature creature) {
         System.out.println(getName() + " остановились у " + place + " чтобы посмотреть на " + creature.getName());
     }
