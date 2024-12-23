@@ -1,7 +1,7 @@
 package Alive;
 
 import Enums.Places;
-
+import java.util.Objects;
 public abstract class Creature {
     private String name;
     private int age;
@@ -35,5 +35,20 @@ public abstract class Creature {
 
     public void setPlace(Places place) {
         this.place = place;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Creature creature = (Creature) obj;
+        return age == creature.age &&
+                Objects.equals(name, creature.name) &&
+                place == creature.place;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, place);
     }
 }
