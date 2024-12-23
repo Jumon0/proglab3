@@ -20,7 +20,8 @@ public class Main {
             dunno.recognize(donkey);
         }
         shorties.walk();
-        shorties.stop(Places.CAGE, monkey);
+        shorties.setPlace(Places.CAGE);
+        shorties.stop(shorties.getPlace(), monkey);
         dunno.tease(monkey);
         monkey.getsAngryAt(dunno);
         dunno.scared();
