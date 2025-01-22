@@ -1,4 +1,4 @@
-package Exceptions;
+package exceptions;
 
 public class InvalidPlaceException extends Exception {
     public InvalidPlaceException(String message) {

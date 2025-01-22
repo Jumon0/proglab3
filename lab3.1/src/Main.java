@@ -1,9 +1,9 @@
 package Alive;
 
-import Enums.Mood;
-import Enums.Places;
-import Exceptions.InvalidMoodTransitionException;
-import Exceptions.InvalidPlaceException;
+import enums.Mood;
+import enums.Places;
+import exceptions.InvalidMoodTransitionException;
+import exceptions.InvalidPlaceException;
 
 import java.util.ArrayList;
 

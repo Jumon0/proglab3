@@ -1,11 +1,11 @@
 package Alive;
 
-import Enums.Places;
-import Enums.Mood;
-import Interfaces.Recognizable;
-import Interfaces.Teasable;
-import Exceptions.InvalidMoodTransitionException;
-import Exceptions.InvalidPlaceException;
+import enums.Places;
+import enums.Mood;
+import interfaces.Recognizable;
+import interfaces.Teasable;
+import exceptions.InvalidMoodTransitionException;
+import exceptions.InvalidPlaceException;
 
 public class Dunno extends Shorties implements Recognizable, Teasable {
     public Dunno() throws InvalidPlaceException, InvalidMoodTransitionException {

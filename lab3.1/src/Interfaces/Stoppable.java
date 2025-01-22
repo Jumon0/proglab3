@@ -1,7 +1,7 @@
-package Interfaces;
+package interfaces;
 
 import Alive.Creature;
-import Enums.Places;
+import enums.Places;
 
 public interface Stoppable {
     void stop(Places place, Creature creature);

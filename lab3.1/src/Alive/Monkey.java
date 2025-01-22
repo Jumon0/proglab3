@@ -1,10 +1,10 @@
 package Alive;
 
-import Enums.Places;
-import Enums.Mood;
-import Interfaces.Angerable;
-import Exceptions.InvalidMoodTransitionException;
-import Exceptions.InvalidPlaceException;
+import enums.Places;
+import enums.Mood;
+import interfaces.Angerable;
+import exceptions.InvalidMoodTransitionException;
+import exceptions.InvalidPlaceException;
 
 public class Monkey extends Creature implements Angerable {
     public Monkey() throws InvalidPlaceException, InvalidMoodTransitionException {

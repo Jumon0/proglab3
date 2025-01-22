@@ -1,6 +1,6 @@
-package Interfaces;
+package interfaces;
 import Alive.Creature;
-import Enums.Places;
+import enums.Places;
 public interface Searchable {
     void search(Creature creature, Places places);
 

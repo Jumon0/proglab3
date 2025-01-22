@@ -1,9 +1,9 @@
 package Alive;
 
-import Enums.Places;
-import Enums.Mood;
-import Exceptions.InvalidMoodTransitionException;
-import Exceptions.InvalidPlaceException;
+import enums.Places;
+import enums.Mood;
+import exceptions.InvalidMoodTransitionException;
+import exceptions.InvalidPlaceException;
 import java.util.Objects;
 
 public abstract class Creature {

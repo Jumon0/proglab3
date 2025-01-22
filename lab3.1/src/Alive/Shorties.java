@@ -1,12 +1,12 @@
 package Alive;
 
-import Enums.Places;
-import Enums.Mood;
-import Interfaces.Movable;
-import Interfaces.Searchable;
-import Interfaces.Stoppable;
-import Exceptions.InvalidMoodTransitionException;
-import Exceptions.InvalidPlaceException;
+import enums.Places;
+import enums.Mood;
+import interfaces.Movable;
+import interfaces.Searchable;
+import interfaces.Stoppable;
+import exceptions.InvalidMoodTransitionException;
+import exceptions.InvalidPlaceException;
 
 public class Shorties extends Creature implements Searchable, Movable, Stoppable {
     public Shorties() throws InvalidPlaceException, InvalidMoodTransitionException {
